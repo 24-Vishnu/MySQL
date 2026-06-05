@@ -36,10 +36,7 @@ mysql> insert LAYOFFS_CLEAN select * from LAYOFFS;
 Query OK, 2361 rows affected (0.958 sec)
 Records: 2361  Duplicates: 0  Warnings: 0
 
--- 1. DEDUPLICATION
--- 2. DATA STANDARDIZATION
--- 3. MISSING DATA HANDLING
--- 4. SCHEMA OPTIMIZATION 
+
 
 
 
