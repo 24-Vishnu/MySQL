@@ -1,0 +1,20 @@
+mysql> create database LAYOFFS_DB;
+Query OK, 1 row affected (0.338 sec)
+
+mysql> use LAYOFFS_DB;
+Database changed
+  
+mysql> create table LAYOFFS (
+    -> company varchar(100),
+    -> location varchar(100),
+    -> industry varchar(100),
+    -> total_laid_off int,
+    -> percentage_laid_off float,
+    -> data varchar(20),
+    -> stage varchar(50),
+    -> country varchar(100),
+    -> funds_raised_millions float
+    -> );
+Query OK, 0 rows affected (0.368 sec)
+
+  
