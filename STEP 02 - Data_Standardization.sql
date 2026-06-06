@@ -1,4 +1,4 @@
-STEP 1 -------DATA STANDARDIZATION------- 
+STEP 2 -------DATA STANDARDIZATION------- 
 
 --Inspect the Data--
 mysql> select distinct company from layoffs_clean order by company;
